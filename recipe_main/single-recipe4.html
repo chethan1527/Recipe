@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Single Recipe || Final</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/download.jpg" type="image/x-icon" style="border-radius: 50%;" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <!-- nav  -->
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./assets/ws500.png" alt="Recipe Archive" />
+        </a>
+        <button class="nav-btn btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link"> home </a>
+        <a href="about.html" class="nav-link"> about </a>
+        <a href="tags.html" class="nav-link"> tags </a>
+        <a href="recipes.html" class="nav-link"> recipes </a>
+
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn"> contact </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end of nav -->
+  <main class="page">
+    <div class="recipe-page">
+      <section class="recipe-hero">
+        <img src="./assets/recipes/rr3.jpg" class="img recipe-hero-img" />
+        <article class="recipe-info">
+          <h2>Omlet</h2>
+          <p>
+            An omelet, a beloved breakfast classic, is a culinary masterpiece created by whisking eggs and cooking them
+            in a pan until they're just set but still slightly runny on the inside. This versatile dish can be
+            customized with an array of ingredients, from cheese, vegetables, and herbs to meats like bacon or ham,
+            allowing for endless variations to suit individual tastes. The result is a fluffy and flavorful concoction
+            that showcases the harmony of ingredients and the skill of the cook, making it a go-to choice for a hearty
+            and satisfying morning meal around the world. Whether folded, rolled, or served flat, the omelet remains a
+            timeless favorite for breakfast enthusiasts and a testament to the artistry of simple yet delicious cuisine.
+          </p>
+          <div class="recipe-icons">
+            <article>
+              <i class="fas fa-clock"></i>
+              <h5>prep time</h5>
+              <p>30 min.</p>
+            </article>
+            <article>
+              <i class="far fa-clock"></i>
+              <h5>cook time</h5>
+              <p>15 min.</p>
+            </article>
+            <article>
+              <i class="fas fa-user-friends"></i>
+              <h5>serving</h5>
+              <p>6 servings</p>
+            </article>
+          </div>
+          <p class="recipe-tags">
+            Tags :
+            <!-- <a href="tag-template.html">beef</a> -->
+            <a href="tag-template.html">breakfast</a>
+            <!-- <a href="tag-template.html">pancakes</a> -->
+            <a href="tag-template.html">food</a>
+          </p>
+        </article>
+      </section>
+      <!-- content -->
+      <section class="recipe-content">
+        <article>
+          <h4>instructions</h4>
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 1</p>
+              <div></div>
+            </header>
+            <p>
+              Begin by gathering your ingredients and tools. You'll need eggs, a non-stick skillet, butter or oil for
+              cooking, and your choice of fillings (such as cheese, vegetables, and meats). Crack the desired number of
+              eggs into a bowl, usually 2-3 eggs per omelet, and whisk them until the yolks and whites are well
+              combined. Season with a pinch of salt and pepper.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 2</p>
+              <div></div>
+            </header>
+            <p>
+              Heat your skillet over medium-low to medium heat and add a small amount of butter or oil to prevent
+              sticking. Once the fat is hot and shimmering, pour the beaten eggs into the pan. Let them cook undisturbed
+              for a minute or two until the edges begin to set.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 3</p>
+              <div></div>
+            </header>
+            <p>
+              Now, add your choice of fillings evenly over one half of the omelet. Gently lift the other half of the
+              omelet with a spatula and fold it over the fillings to create a half-moon shape. Cook for another minute
+              or so until the omelet is set but still slightly runny on the inside (if you prefer it more well-done,
+              cook a bit longer). Carefully slide the omelet onto a plate, and it's ready to serve.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+        </article>
+        <article class="second-column">
+          <div>
+            <h4>ingredients</h4>
+            <p class="single-ingredient">Eggs (2-3, depending on preference)</p>
+            <p class="single-ingredient">Butter or oil (for cooking)</p>
+            <p class="single-ingredient">Salt and pepper (to taste)</p>
+          </div>
+          <div>
+            <h4>tools</h4>
+            <p class="single-tool">Non-stick skillet</p>
+            <p class="single-tool">Whisk or fork (for beating the eggs)</p>
+            <p class="single-tool">Spatula (for flipping and folding the omelet)</p>
+            <!-- <p class="single-tool"></p> -->
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer class="page-footer">
+    <p>
+      &copy; <span id="date"></span>
+      <span class="footer-logo">Recipe Archive</span>
+    </p>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Single Recipe || Final</title>
+  <link rel="shortcut icon" href="./assets/download.jpg" type="image/x-icon" style="border-radius: 50%;" />
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./assets/ws500.png" alt="Recipe Archive" />
+        </a>
+        <button class="nav-btn btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link"> home </a>
+        <a href="about.html" class="nav-link"> about </a>
+        <a href="tags.html" class="nav-link"> tags </a>
+        <a href="recipes.html" class="nav-link"> recipes </a>
+
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn"> contact </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main class="page">
+    <div class="recipe-page">
+      <section class="recipe-hero">
+        <img src="./assets/recipes/rr1.jpg" class="img recipe-hero-img" />
+        <article class="recipe-info">
+          <h2>Noodles</h2>
+          <p>Noodles, an ancient and beloved staple of global cuisine, offer a tantalizing marriage of simplicity and
+            versatility. Whether slender strands of Italian pasta, comforting bowls of Japanese ramen, or the wide
+            variety of Asian, Middle Eastern, and Western noodle dishes in between, these doughy creations have woven
+            themselves into the culinary fabric of countless cultures. Their ability to absorb flavors and textures,
+            from savory broths to rich sauces, makes noodles a canvas for culinary creativity. From quick and comforting
+            weeknight dinners to elaborate and celebratory feasts, noodles have transcended borders, becoming a symbol
+            of comfort, convenience, and culinary artistry that continues to delight taste buds worldwide.</p>
+          <div class="recipe-icons">
+            <article>
+              <i class="fas fa-solid fa-clock"></i>
+              <h5>prep time</h5>
+              <p>30 min.</p>
+            </article>
+            <article>
+              <i class="far fa-clock"></i>
+              <h5>cook time</h5>
+              <p>15 min.</p>
+            </article>
+            <article>
+              <i class="fas fa-user-friends"></i>
+              <h5>serving</h5>
+              <p>6 servings</p>
+            </article>
+          </div>
+          <p class="recipe-tags">
+            Tags :
+            <a href="tag-template.html">breakfast</a>
+            <a href="tag-template.html">food</a>
+          </p>
+        </article>
+      </section>
+      <section class="recipe-content">
+        <article>
+          <h4>instructions</h4>
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 1</p>
+              <div></div>
+            </header>
+            <p>Start by combining flour and water in a mixing bowl. The exact ratio may vary depending on the type of
+              noodles you want to make, but a common ratio is one cup of flour to about 1/3 to 1/2 cup of water. Knead
+              the mixture until it forms a smooth, elastic dough. This may take some time and effort to achieve the
+              right consistency. If the dough is too dry, add a little more water; if it's too sticky, add a bit more
+              flour. Once the dough is ready, cover it and let it rest for about 30 minutes to allow the gluten to
+              relax.</p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 2</p>
+              <div></div>
+            </header>
+            <p>After the resting period, divide the dough into smaller portions to make it more manageable. Roll out
+              each portion into a thin, flat sheet using a rolling pin or pasta machine. You can dust the dough with a
+              bit of flour to prevent sticking. Depending on your preference, you can cut the dough into various shapes
+              and sizes—thin ribbons for linguine, wide sheets for lasagna, or even shape them into dumpling wrappers or
+              noodles with a knife or pasta cutter.</p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 3</p>
+              <div></div>
+            </header>
+            <p>Bring a large pot of water to a rolling boil and add a pinch of salt. Carefully add your freshly made
+              noodles to the boiling water. Fresh noodles usually cook much faster than dried ones, often in just 1-3
+              minutes, so keep a close eye on them. Taste for doneness; they should be tender but still have a slight
+              bite (known as "al dente"). Once cooked to your liking, drain the noodles and rinse them with cold water
+              to stop the cooking process. Your homemade noodles are now ready to be used in your favorite recipes or
+              enjoyed with your preferred sauce or seasoning.</p>
+          </div>
+          <!-- end of single instruction -->
+        </article>
+        <article class="second-column">
+          <div>
+            <h4>ingredients</h4>
+            <p class="single-ingredient">Flour 3-4 cups</p>
+            <p class="single-ingredient">Water 2-3 litres</p>
+            <p class="single-ingredient">Salt and pepper</p>
+          </div>
+          <div>
+            <h4>tools</h4>
+            <p class="single-tool">Mixing bowl</p>
+            <p class="single-tool">Rolling pin or pasta machine</p>
+            <p class="single-tool">Knife or Pasta Cutter</p>
+            <!-- <p class="single-tool"></p> -->
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer class="page-footer">
+    <p>
+      &copy; <span id="date"></span>
+      <span class="footer-logo">Recipe Archive</span>
+    </p>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
